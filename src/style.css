@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+
+.title {
+  text-transform: uppercase;
+  align-self: center;
+  margin-bottom: 8rem;
+  font-size: 4vw;
+}
+
+.imgContainer {
+  max-width: 50vh;
+  margin: 4rem 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.scrollbar-track {
+background-color: transparent !important;
+}
+
+.scrollbar-track-y {
+  width: 12px !important;
+}
+
+.scrollbar-thumb {
+  width: 12px !important;
+  background-color: black !important;
+  border-radius: 0 !important;
+}
